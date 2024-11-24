@@ -16,4 +16,9 @@ if(!$data || !isset($data["results"])){
 //  pico CSS  minimal styles (table)
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </head>
+<main>
+//Pico CSS  for responsive design and overflow handling
+<div class="overflow-auto">
+</div>
+</main>
 </html>
