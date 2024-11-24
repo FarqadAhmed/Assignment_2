@@ -9,3 +9,8 @@ if(!$data || !isset($data["results"])){
     die('error fetching the data from API');
 }
 ?>
+<html>
+<head>
+<title>University of Bahrain Students Enrollment by Nationality</title>
+</head>
+</html>
