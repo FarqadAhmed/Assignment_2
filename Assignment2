@@ -4,5 +4,8 @@ $url= "https://data.gov.bh/api/explore/v2.1/catalog/datasets/01-statistics-of-st
 // Fetch & decode the JSON response
 $response= file_get_contents($url);
 $data = json_decode($response , true);
-
+// Check if  decoding was successful OR not
+if(!$data || !isset($data["results"])){
+    die('error fetching the data from API');
+}
 ?>
